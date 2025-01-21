@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className={S}>
       <div>
-        <h3>&copy;2023 Alan Fabrício</h3>
+        <h3>&copy;2025 Alan Fabrício</h3>
         <ul>
           <li>
             <a
