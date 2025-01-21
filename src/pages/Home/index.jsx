@@ -7,24 +7,3 @@ export default function Home() {
     </div>
   );
 }
-{
-  /* 
-  normal (default)
-multiply
-screen
-overlay
-darken
-lighten
-color-dodge
-color-burn
-hard-light
-soft-light
-difference
-exclusion
-hue
-saturation
-color
-luminosity
-  
-  */
-}
