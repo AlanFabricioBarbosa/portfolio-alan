@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Descomplica Faculdade Digital",
     "name": "Análise e Desenvolvimento de Sistemas",
-    "img": "/assets/education/logo_faculdade-descomplica.png",
+    "img": "/assets/img/imgEducation/logo_faculdade-descomplica.png",
     "imgAlt": "Logo da faculdade Descomplica",
     "linkOrg": "https://descomplica.com.br/",
     "nivel": "Superior",
@@ -14,7 +14,7 @@
     "id": 2,
     "title": "Vai Na Web",
     "name": "Desenvolvimento Front-End",
-    "img": "/assets/education/logo_vai-na-web.png",
+    "img": "/assets/img/imgEducation/logo_vai-na-web.svg",
     "imgAlt": "Logo da escola Vai na Web",
     "linkOrg": "https://vainaweb.com.br/",
     "nivel": "Profissionalizante",
@@ -25,7 +25,7 @@
     "id": 3,
     "title": "Vai Na Web",
     "name": "Desenvolvimento FullStack",
-    "img": "/assets/education/logo_vai-na-web.png",
+    "img": "/assets/img/imgEducation/logo_vai-na-web.svg",
     "imgAlt": "Logo da escola Vai na Web",
     "linkOrg": "https://vainaweb.com.br/",
     "nivel": "Profissionalizante",
@@ -36,11 +36,11 @@
     "id": 4,
     "title": "Programa Oracle Next Education",
     "name": "Trilha Back-End",
-    "img": "/assets/education/logo_one.png",
+    "img": "/assets/img/imgEducation/logo_one.png",
     "imgAlt": "Logo do programa Oracle Next Education",
     "linkOrg": "https://www.oracle.com/br/education/oracle-next-education/",
     "nivel": "Profissionalizante",
     "status": "Finalizado",
-    "description": "Bootcamp de back-end na Alura através do programa ONE da Oracle."
+    "description": "Bootcamp de back-end na Alura através da Plataforma Impact no programa ONE da Oracle."
   }
 ]

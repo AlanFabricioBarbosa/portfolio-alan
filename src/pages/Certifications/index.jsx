@@ -1,3 +1,9 @@
+import CardEducation from "../../Components/CardEducations";
+
 export default function Certifications() {
-  return <div>Certifications</div>;
+  return (
+    <>
+      <CardEducation />
+    </>
+  );
 }
