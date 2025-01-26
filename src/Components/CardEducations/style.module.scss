@@ -1,0 +1,79 @@
+@use "../../Sass/base/variables";
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 2.5rem;
+
+  .card {
+    background-color: #1a1a2e;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    figure {
+      margin: 0;
+      position: relative;
+      text-align: center;
+
+      img {
+        width: 50%;
+        height: 150px;
+        object-fit: fill;
+      }
+
+      figcaption {
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 0.5rem;
+        font-size: 0.9rem;
+        font-family: variables.$body-font;
+        color: variables.$text-color-body;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+      }
+    }
+
+    .card-content {
+      padding: 1rem;
+      flex-grow: 1;
+
+      h3 {
+        font-size: 1.25rem;
+        color: variables.$text-color-title;
+        font-family: variables.$title-font;
+        margin-bottom: 0.5rem;
+      }
+
+      a {
+        color: variables.$icons-color;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease;
+
+        &:hover {
+          color: variables.$animation-color;
+        }
+      }
+
+      p {
+        font-size: 0.9rem;
+        color: variables.$text-color-body;
+        font-family: variables.$body-font;
+        margin-top: 0.5rem;
+        line-height: 1.5;
+      }
+    }
+  }
+}

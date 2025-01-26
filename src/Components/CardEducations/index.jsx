@@ -1,18 +1,16 @@
 import Data from "../../data/education.json";
+import S from "./style.module.scss";
 
 export default function CardEducation() {
   return (
-    <section>
+    <section className={S["card-container"]}>
       {Data.map((i) => (
-        <section key={i.id}>
+        <section key={i.id} className={S["card"]}>
           <figure>
             <img src={i.img} alt={i.imgAlt} />
-            <div>
-              <figcaption>{i.status}</figcaption>
-              <figcaption>{i.nivel}</figcaption>
-            </div>
+            <figcaption>{i.status}</figcaption>
           </figure>
-          <section>
+          <section className={S["card-content"]}>
             <h3>{i.name}</h3>
             <a href={i.linkOrg} target="_blank" rel="noreferrer">
               {i.title}
