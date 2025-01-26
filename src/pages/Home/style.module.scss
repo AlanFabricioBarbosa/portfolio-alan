@@ -1,0 +1,64 @@
+@use "../../Sass/base/variables" as vars;
+
+.home_text_container {
+  height: 81vh;
+  text-align: center;
+}
+
+.home_text_content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  @keyframes waveText {
+    0% {
+      transform: translateX(-20px);
+      opacity: 0;
+    }
+    50% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(10px);
+      opacity: 0;
+    }
+  }
+
+  h2 {
+    color: vars.$text-color-title;
+    font-family: vars.$title-font;
+    font-size: 3.5rem;
+    font-weight: bold;
+
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+
+    span {
+      display: inline-block;
+      animation: waveText 4s infinite ease-in-out;
+      opacity: 0;
+
+      &:nth-child(1) {
+        animation-delay: 0.02s;
+      }
+
+      &:nth-child(2) {
+        animation-delay: 0.3s;
+      }
+
+      &:nth-child(3) {
+        animation-delay: 0.6s;
+      }
+    }
+  }
+
+  p {
+    color: vars.$text-color-body;
+    font-family: vars.$body-font;
+    font-size: 2.5rem;
+  }
+}
