@@ -22,17 +22,6 @@
     "description": "Curso de front-end com JavaScript, ReactJS e Styled-Components."
   },
   {
-    "id": 3,
-    "title": "Vai Na Web",
-    "name": "Desenvolvimento FullStack",
-    "img": "/assets/img/imgEducation/logo_vai-na-web.svg",
-    "imgAlt": "Logo da escola Vai na Web",
-    "linkOrg": "https://vainaweb.com.br/",
-    "nivel": "Profissionalizante",
-    "status": "Finalizado",
-    "description": "Curso de front-end com JavaScript, Sass, ReactJS e back-end em Python."
-  },
-  {
     "id": 4,
     "title": "Programa Oracle Next Education",
     "name": "Trilha Back-End",
@@ -42,5 +31,16 @@
     "nivel": "Profissionalizante",
     "status": "Finalizado",
     "description": "Bootcamp de back-end na Alura através da Plataforma Impact no programa ONE da Oracle."
+  },
+  {
+    "id": 3,
+    "title": "Vai Na Web",
+    "name": "Desenvolvimento FullStack",
+    "img": "/assets/img/imgEducation/logo_vai-na-web.svg",
+    "imgAlt": "Logo da escola Vai na Web",
+    "linkOrg": "https://vainaweb.com.br/",
+    "nivel": "Profissionalizante",
+    "status": "Em andamento",
+    "description": "Curso de front-end com JavaScript, Sass, ReactJS e back-end em Python."
   }
 ]
